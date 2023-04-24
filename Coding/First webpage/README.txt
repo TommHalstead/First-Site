@@ -1,1 +1,0 @@
-This is my first webpage written and coded with HTML and CSS completely by myself with the help of HTML&CSS by Jon Duckett and the internet. Thank you for viewing.
