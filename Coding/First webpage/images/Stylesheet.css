@@ -1,0 +1,489 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.38em;
+    background: url("/triangles.webp") repeat;
+}
+
+h1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    padding: inherit;
+}
+
+h3, h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    padding: inherit;
+    font-weight: bold;
+    border: 2px solid rgb(109, 107, 107);
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.minor {
+    text-align: left;
+}
+
+.color {
+    position: relative;
+    display: inline-block;
+    padding-left: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 110%;
+}
+
+.text {
+    position: relative;
+    display: inline-block;
+    padding-left: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 110%;
+}
+
+a:link,
+u {
+    text-decoration: none;
+    color: rgb(59, 28, 255);
+    cursor: pointer;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+
+}
+
+a:hover {
+    color: rgb(253, 136, 155);
+    cursor: pointer;
+}
+
+
+p {
+    text-align: left;
+    text-indent: 35px;
+}
+
+#caption {
+    text-indent: 35px;
+}
+
+#selectors:first-letter {
+    font-size: 145%;
+    vertical-align: top;
+    line-height: .9em
+}
+
+input[type=submit] {
+    font-size: 85%;
+    border: 1px solid;
+    color: #fff;
+    background: rgb(209, 54, 54);
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    display: block;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+input[type=password] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    color: black;
+    font-size: 80%;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+}
+
+input[type=text] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    color: black;
+    font-size: 80%;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+}
+
+input[type=password]:focus {
+    background-color: rgb(255, 231, 231);
+    border-radius: 8px;
+}
+
+
+input[type=text]:focus {
+    background-color: rgb(255, 231, 231);
+    border-radius: 8px;
+}
+
+input[type=submit]:hover {
+    background: #ff0000;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+input[type=submit]:active {
+    background: black;
+    color: white;
+    border-top: 2px white;
+    border-bottom: 2px white;
+}
+
+#cascade {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-width: 200px;
+    max-width: 700px;
+    min-height: 150px;
+    max-height: 200px;
+    overflow: scroll;
+    width: 50%;
+    border: 3px solid white;
+    padding: 20px;
+}
+
+#medium {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlefs {
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+iframe,
+video {
+    border: 5px solid rgb(200, 193, 193);
+    border-radius: 10px;
+    display: block;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #dfd7d7;
+    border-radius: 3px;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 95%;
+    border-top: 2px solid rgb(121, 121, 121);
+    border-bottom: 2px solid rgb(121, 121, 121);
+    text-align: left;
+    background-color: #cecbcb;
+    border-radius: 5px 5px;
+}
+
+table {
+    border-spacing: 3px;
+    empty-cells: show;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border: 1px solid beige;
+    box-shadow: 0px 0px 0px 0px black;
+    padding: 7px;
+    border-radius: 6px 6px 6px 6px;
+}
+
+tr:hover td {
+    background-color: #cecbcb;
+
+}
+
+.minortable {
+    border-spacing: 1px;
+    border-collapse: collapse;
+}
+
+#borderp {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#border1 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    padding: 5px;
+    border-color: aqua red chartreuse coral;
+    width: 600px;
+    border-radius: 20px 20px;
+
+}
+
+#border2 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px dotted rgb(221, 142, 45);
+    padding: 5px;
+    width: 850px;
+    border-radius: 20px 20px;
+}
+
+/*When using the "border-width" property with the "dotted" border style the 8px specifies the size of the dot and the space inbetween each dot. */
+
+#border3 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px dashed rgb(90, 149, 78);
+    padding: 5px;
+    width: 600px;
+    border-radius: 20px 20px;
+}
+
+#border4 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px double cornflowerblue;
+    padding: 5px;
+    width: 850px;
+    border-radius: 20px 20px;
+}
+
+#border5 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px groove coral;
+    padding: 5px;
+    width: 600px;
+    border-radius: 20px 20px;
+}
+
+#border6 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px ridge blueviolet;
+    padding: 5px;
+    width: 850px;
+    border-radius: 20px 20px;
+}
+
+#border7 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px inset springgreen;
+    padding: 5px;
+    width: 600px;
+    border-radius: 20px 20px;
+}
+
+#border8 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px outset deeppink;
+    padding: 5px;
+    width: 850px;
+    border-radius: 20px 20px;
+}
+
+#border9 {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: hidden;
+}
+
+#border10 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px dashed #30027a;
+    padding: 5px;
+    width: 600px;
+    border-radius: 20px 20px;
+
+}
+
+#garbo {
+    border: 5px solid yellowgreen;
+    visibility: hidden;
+}
+
+footer {
+    float: right;
+    color: aquamarine;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#practicelist {
+    list-style: inside square;
+    margin: 50px 50px;
+    font-weight: bolder;
+
+}
+
+#practicelist1 {
+    list-style: inside upper-roman;
+    margin: 50px 50px;
+    font-weight: bolder;
+
+}
+
+.lists {
+    list-style-position: inside;
+    text-align: center;
+}
+
+#rhc {
+    text-align: center;
+}
+
+legend {
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 80%;
+    text-align: left;
+    padding: 2px 3px;
+}
+
+fieldset {
+    border: 2px solid black;
+    width: 960px;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.inputform1 {
+    width: 450px;
+
+
+}
+
+#textarea {
+    padding-top: 15px;
+
+}
+
+.inputs {
+    width: 550px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputsp {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+    display: block;
+    width: 7px;
+
+}
+
+#maintitle {
+    height: 125px;
+    background-color: #eeeeee;
+    position: fixed;
+    top: 0px;
+    left: 25%;
+    right: 25%;
+    padding: 0px;
+    text-align: center;
+    width: 350px;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+#fieldset1 {
+    margin-top: 165px;
+
+}
+
+#marcus {
+    height: 180px;
+    float: right;
+    font-style: italic;
+    font-size: 1 30%;
+    width: 200px;
+    border-top: 2px solid rgb(79, 78, 78);
+    border-bottom: 2px solid rgb(79, 78, 78);
+    margin: 40px;
+    clear: both;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+#semantic {
+    margin-top: 50px;
+    margin-bottom: 110px;
+
+}
+
+.valid {
+    overflow: auto;
+    width: 100%;
+
+}
+
+.valid1 {
+    margin-right: 150px;
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+    float: right;
+
+}
+
+.valid2 { 
+    margin-left: 150px;
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+    float: left;
+}
